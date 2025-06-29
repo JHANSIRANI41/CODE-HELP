@@ -32,7 +32,7 @@ function App() {
      setReview("Loading....")
     try {
      
-      const response = await axios.post("http://localhost:8080/ai/get-review",
+      const response = await axios.post("https://code-help-backend-resq.onrender.com",
         { "prompt":code}
       );
      
