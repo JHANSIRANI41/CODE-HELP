@@ -1,5 +1,5 @@
-# AI Code Reviewer
-AI Code Reviewer is a web application that utilizes Google's Gemini Flash 2.5 flash API to analyze and review code snippets. Built with React.js for the frontend and Node.js for the backend, it provides an AI-driven code review experience.
+# CODE-HELP
+CODE-HELP is a web application that utilizes Google's Gemini Flash 2.5 flash API to analyze and review code snippets. Built with React.js for the frontend and Node.js for the backend, it provides an AI-driven code review experience.
 
 ## Features
 -   **AI-Powered Code Review**: Uses Google's Gemini Flash 2.5 flash API for code analysis.
