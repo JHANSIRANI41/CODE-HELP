@@ -12,7 +12,7 @@ import "./index.css"; // Tailwind CSS file
 function App() {
   
   const [code, setCode] = useState('console.log("Hello World")');
-  const [review, setReview] = useState("");
+  const [review, setReview] = useState("Loading......");
   const [copied, setCopied] = useState(false);
   const editorRef = useRef(null); // Reference for Editor container
  
@@ -62,6 +62,7 @@ function App() {
 
   return (
     <div>
+     
        {/* reset button */}
       <div className="pt-1 flex justify-center bg-gray-900  text-white">
         <button onClick={handleReset}  className="px-4 py-1 bg-blue-600 hover:bg-blue-900 text-white rounded-lg">Reset</button>
