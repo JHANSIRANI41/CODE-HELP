@@ -33,7 +33,7 @@ function App() {
     try {
      
       const response = await axios.post("https://code-help-backend-resq.onrender.com",
-        { "prompt":code}
+        {code}
       );
      
       
