@@ -37,7 +37,7 @@ function App() {
       );
      
       
-      setReview(response.data);
+      setReview(response.data.review);
     } catch (error) {
       console.error("Error fetching review:", error);
       setReview("Failed to get review. Check server logs.");
