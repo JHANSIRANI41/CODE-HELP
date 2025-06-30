@@ -32,12 +32,12 @@ function App() {
      setReview("Loading....")
     try {
      
-      const response = await axios.post("https://code-help-backend-resq.onrender.com",
-        {code}
+      const response = await axios.post("https://code-help-backend-resq.onrender.com/ai/get-review",
+      { "prompt":code}
       );
      
       
-      setReview(response.data.review);
+      setReview(response.data);
     } catch (error) {
       console.error("Error fetching review:", error);
       setReview("Failed to get review. Check server logs.");
